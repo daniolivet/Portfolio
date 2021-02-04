@@ -1,5 +1,6 @@
 <?php 
 
+/* Remove Admin Bar */
 function remove_admin_login_header() {
 
     remove_action('wp_head', '_admin_bar_bump_cb');
@@ -7,5 +8,8 @@ function remove_admin_login_header() {
 }
 
 add_action('get_header', 'remove_admin_login_header');
+
+/* Custom Post Type Languages */
+
 
 ?>

@@ -18,6 +18,7 @@
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.5.1.min.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.bundle.js" ></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/typed.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js" ></script>
 
         <?php wp_head(); ?>
