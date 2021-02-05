@@ -3,7 +3,8 @@ window.onload = () => {
         strings: [
             'Autodidacta',
             'Proactivo',
-            'Trabajo en equipo'
+            'Trabajo en equipo',
+            'Extrovertido'
         ],
         typeSpeed: 80,
         backSpeed: 80,

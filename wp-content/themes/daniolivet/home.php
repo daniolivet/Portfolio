@@ -39,7 +39,7 @@ get_header();
                                 <div class="box_personal_data">
                                     <p class="small-title">- Introducción</p>
                                     <h2><?php echo get_field('title_description', $post->ID); ?></h2>
-                                    <p><?php echo get_field('small_description', $post->ID); ?></p>
+                                    <?php echo get_field('small_description', $post->ID); ?>
                                 </div>
                             </div>
                         </div>
