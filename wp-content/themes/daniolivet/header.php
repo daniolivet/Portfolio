@@ -19,6 +19,8 @@
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.bundle.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/typed.js" ></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js" ></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js" ></script>
 
         <?php wp_head(); ?>

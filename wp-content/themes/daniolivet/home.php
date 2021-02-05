@@ -45,16 +45,33 @@ get_header();
                         </div>
                     </div>
                 </div>
+                <div class="box_arrow position-relative">
+                    <a class="arrow-down bounce" href="#"></a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="mtb50">
+<div class="mtb75">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="box_habilities_data">
+                    <h2><?php echo get_field('title_hability', $post->ID); ?></h2>
+                    <?php echo get_field('description_hability', $post->ID); ?>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="box_habilities mt50">
+                    <div class="owl-carousel owl-theme">
+                    <?php if( have_rows('repeater_languages') ): while ( have_rows('repeater_languages') ) : the_row(); ?>
+                        <div class="item item-hability">
+                            <div class="image-hability" style="background-image: url('<?php echo get_sub_field('image'); ?>');"></div>
+                        </div>
+                    <?php endwhile; else : endif; ?>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
