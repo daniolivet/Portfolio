@@ -1,4 +1,5 @@
 window.onload = () => {
+
     var typed = new Typed('#textTyped', {
         strings: [
             'Autodidacta',
@@ -7,8 +8,8 @@ window.onload = () => {
             'Extrovertido',
             'Empatía'
         ],
-        typeSpeed: 80,
-        backSpeed: 80,
+        typeSpeed: 90,
+        backSpeed: 90,
         loop: true
     });
 
@@ -16,8 +17,10 @@ window.onload = () => {
         loop: true,
         items: 5,
         autoplay: true,
+        autoplayTimeout: 8000,
         rewindNav: false,
         nav: true,
+        navText: ["<span class='prev-arrow'></span>", "<span class='next-arrow'></span>"],
         margin: 30,
         dots: false,
         responsiveClass: true,
@@ -36,4 +39,5 @@ window.onload = () => {
             }
         }
     })
+
 };

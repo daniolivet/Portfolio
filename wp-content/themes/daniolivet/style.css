@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
+    background: #161616;
 }
 
 html {
@@ -23,24 +24,15 @@ h4,
 h6,
 p {
     margin: 0;
+    color: #FFFFFF;
 }
 
 .mt50 {
     margin-top: 50px;
 }
 
-.mtb75 {
-    margin: 75px 0;
-}
-
-.c-white {
-    color: #FFFFFF;
-}
-
-.small-title {
-    font-size: 16px;
-    color: #CECECE !important;
-    margin-bottom: 5px;
+.mt75 {
+    margin-top: 75px;
 }
 
 .no_spaces {
@@ -49,6 +41,10 @@ p {
 
 .col_no_spaces {
     padding: 0;
+}
+
+.grey {
+    color: #CECECE;
 }
 
 .item-image {
@@ -170,7 +166,46 @@ p {
     }
 }
 
-.owl-nav {
-    display: flex;
-    justify-content: space-between;
+.owl-prev {
+    left: -40px;
+}
+
+.owl-next {
+    right: -50px;
+}
+
+.owl-next,
+.owl-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.prev-arrow {
+    background-image: url('../daniolivet/images/arrow-left.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
+.next-arrow {
+    background-image: url('../daniolivet/images/arrow-right.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
+.box_knowledge h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }

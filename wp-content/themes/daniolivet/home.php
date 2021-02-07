@@ -37,7 +37,6 @@ get_header();
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                                 <div class="box_personal_data">
-                                    <p class="small-title">- Introducción</p>
                                     <h2><?php echo get_field('title_description', $post->ID); ?></h2>
                                     <?php echo get_field('small_description', $post->ID); ?>
                                 </div>
@@ -53,7 +52,7 @@ get_header();
     </div>
 </div>
 
-<div class="mtb75">
+<div class="mt75">
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -72,6 +71,22 @@ get_header();
                     <?php endwhile; else : endif; ?>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="box_knowledge mt50 text-center">
+                    <h2><?php echo get_field('celebrate_phrase'); ?></h2>
+                    <p class="grey"><?php echo get_field('celebrate_author'); ?></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt75">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                
             </div>
         </div>
     </div>
