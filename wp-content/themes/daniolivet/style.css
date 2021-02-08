@@ -31,6 +31,11 @@ p {
     margin-top: 50px;
 }
 
+.mtb75 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
 .mt75 {
     margin-top: 75px;
 }
@@ -45,6 +50,10 @@ p {
 
 .grey {
     color: #CECECE;
+}
+
+.bg-grey {
+    background-color: #CECECE;
 }
 
 .item-image {
@@ -166,46 +175,24 @@ p {
     }
 }
 
-.owl-prev {
-    left: -40px;
-}
-
-.owl-next {
-    right: -50px;
-}
-
-.owl-next,
-.owl-prev {
-    position: absolute;
-    top: 50%;
-    z-index: 3;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.prev-arrow {
-    background-image: url('../daniolivet/images/arrow-left.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 15px;
-    height: 15px;
-    display: block;
-}
-
-.next-arrow {
-    background-image: url('../daniolivet/images/arrow-right.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 15px;
-    height: 15px;
-    display: block;
-}
-
 .box_knowledge h2 {
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: transparent;
+    transition: background-color 0.25s;
+    border: 1px solid #D6D6D6;
+    width: 12px;
+    height: 12px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #D6D6D6;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
 }

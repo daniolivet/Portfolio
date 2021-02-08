@@ -82,12 +82,12 @@ get_header();
     </div>
 </div>
 
-<div class="mt75">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                
-            </div>
+<hr class="bg-grey mtb75">
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            
         </div>
     </div>
 </div>

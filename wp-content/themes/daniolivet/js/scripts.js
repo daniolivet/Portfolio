@@ -16,13 +16,8 @@ window.onload = () => {
     $('.owl-carousel').owlCarousel({
         loop: true,
         items: 5,
-        autoplay: true,
-        autoplayTimeout: 8000,
-        rewindNav: false,
-        nav: true,
-        navText: ["<span class='prev-arrow'></span>", "<span class='next-arrow'></span>"],
-        margin: 30,
-        dots: false,
+        margin: 40,
+        dots: true,
         responsiveClass: true,
         responsive: {
             0: {
