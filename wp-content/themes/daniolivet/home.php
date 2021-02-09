@@ -56,7 +56,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div class="box_habilities_data">
+                <div class="box_habilities_data text-center">
                     <h2><?php echo get_field('title_hability', $post->ID); ?></h2>
                     <?php echo get_field('description_hability', $post->ID); ?>
                 </div>
@@ -86,11 +86,51 @@ get_header();
 
 <div class="container">
     <div class="row">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="box_portfolio text-center mb50">
+                <h2><?php echo get_field('title_portfolio', $post->ID); ?></h2>
+                <?php echo get_field('description_portfolio', $post->ID); ?>
+            </div>
         </div>
+    </div>
+    <div class="row">
+    <?php query_posts( 
+            array(
+                'post_type' => 'portfolio',
+                'posts_per_page' => -1 )
+            ); 
+    ?>
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <?php $img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-slide' ); ?>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <a href="<?php echo get_field('link'); ?>">
+                <div class="position-relative mb30">
+                    <div class="item-portfolio" style="background-image: url('<?php echo $img[0]; ?>');"></div>
+                    <div class="wrapper-data">
+                        <div class="wrapper-info"></div>
+                        <div class="box-info">
+                            <h6><?php echo get_the_title(); ?></h6>
+                            <?php the_content(); ?>
+                            <ul>
+                                <?php 
+                                $cat_list = get_the_terms($post->ID, 'categoria_portfolio'); 
+                                foreach( $cat_list as $cat ){
+                                ?>
+                                <li><?php echo $cat->name; ?></li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    <?php endwhile; endif; wp_reset_query(); ?>
     </div>
 </div>
 
+
+<div class="mt50">
+
+</div>
 
 <?php get_footer(); ?>
