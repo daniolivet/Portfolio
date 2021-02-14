@@ -119,6 +119,12 @@ p {
     justify-content: center;
 }
 
+.flex-row-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -350,4 +356,38 @@ p {
     font-weight: 400;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
+}
+
+.box-footer h2 {
+    font-size: 22px;
+}
+
+.box-social {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.box-social ul {
+    display: inline-flex;
+}
+
+.box-social ul > li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.box-social ul > li:last-child {
+    margin-right: 0px;
+}
+
+.icon-footer,
+.icon-footer > svg {
+    width: 1.4em;
+    height: 1.4em;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
 }
