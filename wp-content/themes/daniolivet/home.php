@@ -129,8 +129,23 @@ get_header();
 </div>
 
 
-<div class="mt50">
-
+<div class="mtb75">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="box_portfolio text-center mb50">
+                    <h2><?php echo get_field('title_contacto', $post->ID); ?></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="box-modal-contact text-center">
+                    <a class="btn-modal-contact">Contacta</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>

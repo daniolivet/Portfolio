@@ -36,6 +36,6 @@ window.onload = () => {
     });
 
     $('.item-portfolio').hover(function() {
-        $(this).siblings().stop().slideDown("slow");
+        $(this).siblings().stop().fadeToggle();
     });
 };

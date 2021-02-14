@@ -320,3 +320,34 @@ p {
 .box-info p {
     color: #FFFFFF;
 }
+
+.title-label {
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 10px;
+}
+
+.contact-form,
+.contact-form:focus {
+    background-color: transparent;
+    border-color: #CECECE;
+    color: #8a8a8a;
+    box-shadow: none;
+}
+
+.btn-modal-contact {
+    color: #CECECE;
+    border: 1px solid #CECECE;
+    border-radius: 30px;
+    padding: 15px 35px;
+}
+
+.btn-modal-contact:hover {
+    background-color: #CECECE;
+    border-color: #CECECE;
+    color: #2a2a2a;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
