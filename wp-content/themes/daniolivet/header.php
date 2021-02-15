@@ -12,6 +12,7 @@
 
         <!--- CSS --->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/all.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
         <!--- JS --->

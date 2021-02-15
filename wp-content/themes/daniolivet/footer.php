@@ -14,18 +14,21 @@
                                 <li>
                                     <a href="https://es.linkedin.com/in/daniel-olivet-jimenez">
                                         <span class="linkedin">
+                                            <i class="fab fa-linkedin-in"></i>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://github.com/daniolivet">
                                         <span class="github">
+                                            <i class="fab fa-github"></i>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="mailto:olivetjimenezdaniel@gmail.com">
                                         <span class="email">
+                                            <i class="far fa-envelope"></i>
                                         </span>
                                     </a>
                                 </li>
