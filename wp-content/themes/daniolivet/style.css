@@ -346,6 +346,10 @@ p {
     border: 1px solid #CECECE;
     border-radius: 30px;
     padding: 15px 35px;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .btn-modal-contact:hover {
@@ -356,6 +360,7 @@ p {
     font-weight: 400;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 .box-footer h2 {
@@ -390,4 +395,44 @@ p {
     display: inline-flex;
     -webkit-box-pack: center;
     justify-content: center;
+}
+
+.fa-linkedin-in,
+.fa-github,
+.fa-envelope {
+    color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.fa-linkedin-in:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+    background-color: #FFFFFF;
+    color: #2a2a2a;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.custom-label {
+    font-size: 14px;
+    font-weight: 200;
+    color: #CACACA;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+}
+
+.custom-input,
+.custom-input:focus {
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #CACACA;
+    margin-bottom: 15px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0;
+    color: #CACACA;
 }

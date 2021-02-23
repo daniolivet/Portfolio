@@ -138,13 +138,29 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div class="box-modal-contact text-center">
-                    <a class="btn-modal-contact">Contacta</a>
+        <form action="" method="post" >
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 offset-lg-3 col-xl-3 offset-xl-3">
+                    <label for="name" class="custom-label">Nombre</label>
+                    <input type="text" class="form-control custom-input" id="name" name="name">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <label for="surname" class="custom-label">Apellidos</label>
+                    <input type="text" class="form-control custom-input" id="surname" name="surname">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+                    <label for="email" class="custom-label">E-mail</label>
+                    <input type="text" class="form-control custom-input" id="surname" name="surname">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+                    <label for="message" class="custom-label">Mensaje</label>
+                    <textarea name="description" class="form-control custom-input" id="description" cols="30" rows="4"></textarea>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+                    <input type="submit" value="Contacta" class="btn-modal-contact">
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </div>
 

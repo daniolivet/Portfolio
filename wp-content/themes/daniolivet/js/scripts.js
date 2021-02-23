@@ -38,4 +38,5 @@ window.onload = () => {
     $('.item-portfolio').hover(function() {
         $(this).siblings().stop().fadeToggle();
     });
+    
 };
