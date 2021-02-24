@@ -23,6 +23,7 @@
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js" ></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js" ></script>
+        <script> var base_url = "<?php echo get_template_directory_uri(); ?>"; </script>
 
         <?php wp_head(); ?>
         

@@ -128,7 +128,6 @@ get_header();
     </div>
 </div>
 
-
 <div class="mtb75">
     <div class="container">
         <div class="row">
@@ -142,15 +141,15 @@ get_header();
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 offset-lg-3 col-xl-3 offset-xl-3">
                     <label for="name" class="custom-label">Nombre</label>
-                    <input type="text" class="form-control custom-input" id="name" name="name">
+                    <input type="text" class="form-control custom-input" id="name" name="name" required>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                     <label for="surname" class="custom-label">Apellidos</label>
-                    <input type="text" class="form-control custom-input" id="surname" name="surname">
+                    <input type="text" class="form-control custom-input" id="surname" name="surname" required>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
                     <label for="email" class="custom-label">E-mail</label>
-                    <input type="text" class="form-control custom-input" id="surname" name="surname">
+                    <input type="text" class="form-control custom-input" id="email" name="email" required>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
                     <label for="message" class="custom-label">Mensaje</label>

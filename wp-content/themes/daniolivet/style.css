@@ -429,10 +429,20 @@ p {
     border-radius: 0;
     border: 0;
     border-bottom: 1px solid #CACACA;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     box-shadow: none;
     font-size: 14px;
     font-weight: 200;
     padding: 0;
     color: #CACACA;
+}
+
+.error_name,
+.error_surname,
+.error_email {
+    color: red;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+    display: block;
 }
